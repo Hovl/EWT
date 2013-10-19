@@ -1,0 +1,135 @@
+.gwt-TextBox, .gwt-PasswordTextBox {
+	color: #656B6F;
+	border: 1px solid #B2B2B2;
+	height: 18px;
+	padding-left: 4px;
+	width:200px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+
+.ewt-max-width {
+	width: 100%;
+}
+
+.ewt-max-height {
+	height: 100%;
+}
+
+.ewt-align-center {
+	text-align: center;
+}
+
+.ewt-play-button, .ewt-play-mouseover-button, .ewt-refresh-button {
+	width: 19px;
+	height: 19px;
+	cursor: pointer;
+}
+
+.ewt-play-button {
+	background-image: url(images/player_buttons.gif);
+}
+
+.ewt-play-mouseover-button {
+	background: url(images/player_buttons.gif) 0 -50px;
+}
+
+.ewt-refresh-button {
+	background: url(images/player_buttons.gif) 0 -200px;
+}
+
+.ewt-link, .ewt-link-select {
+	color: #0088EE;
+	cursor: pointer;
+	background: url(images/forward.png) no-repeat;
+	padding-left: 7px;
+}
+
+.ewt-link-select {
+	text-decoration: underline;
+}
+
+.ewt-tool-edit, .ewt-tool-block, .ewt-tool-unblock, .ewt-tool-history, .ewt-tool-reboot, .ewt-tool-config,
+.ewt-tool-home, .ewt-tool-info, .ewt-stat-blocked, .ewt-stat-delete, .ewt-stat-info, .ewt-stat-mobgrey, .ewt-stat-ok,
+.ewt-stat-unknown, .ewt-stat-warn, .ewt-stat-loading, .ewt-tool-add, .ru, .en {
+	height: 16px;
+	width: 16px;
+}
+
+.ru {
+	background: url(images/ru.png) !important;
+}
+
+.en {
+	background: url(images/en.png) !important;
+}
+
+.de {
+    background: url(images/de.png) !important;
+}
+
+.ewt-tool-add {
+	background: url(images/add.png) !important;
+}
+
+.ewt-tool-edit {
+	background: url(images/tools.png) 0 -96px !important;
+}
+.ewt-tool-block {
+	background: url(images/tools.png) 0 -64px !important;
+}
+.ewt-tool-unblock {
+	background: url(images/tools.png) 0 -48px !important;
+}
+.ewt-tool-history {
+	background: url(images/tools.png) 0 -112px !important;
+}
+.ewt-tool-reboot {
+	background: url(images/tools.png) 0 -32px !important;
+}
+.ewt-tool-config {
+	background: url(images/tools.png) 0 -80px !important;
+}
+.ewt-tool-home {
+	background: url(images/tools.png) 0 -128px !important;
+}
+.ewt-tool-info {
+	background: url(images/tools.png) 0 -1px !important;
+}
+.ewt-stat-blocked {
+	background: url(images/stats.png) 0 -64px !important;
+}
+.ewt-stat-delete {
+	background: url(images/stats.png) 0 -48px !important;
+}
+.ewt-stat-info {
+	background: url(images/stats.png) 0 -32px !important;
+}
+.ewt-stat-mobgrey {
+	background: url(images/stats.png) 0 -144px !important;
+}
+.ewt-stat-ok {
+	background: url(images/stats.png) 0 -128px !important;
+}
+.ewt-stat-unknown {
+	background: url(images/stats.png) 0 -96px !important;
+}
+.ewt-stat-warn {
+	background: url(images/stats.png) 0 -80px !important;
+}
+.ewt-stat-loading {
+	background-image: url(images/little-loading.gif) !important;
+}
+.ewt-msg-alert {
+    color:red;
+    font-weight:bold;
+}
+.ewt-form-msg {
+	width:100%;
+	text-align:center;
+	color:red;
+	font-weight:bold;
+	margin:2px;
+	border:1px dotted #f00;
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.6//EN"
+		"http://google-web-toolkit.googlecode.com/svn/releases/1.6/distro-source/core/src/gwt-module.dtd">
+<module>
+
+	<inherits name='com.google.gwt.user.User'/>
+	<inherits name="com.extjs.gxt.ui.GXT"/>
+	<inherits name="ebs.ewt.Ewt"/>
+
+	<entry-point class='ebs.ewtexttest.client.EwtExtTest'/>
+
+	<!--for development-->
+	<set-property name="user.agent" value="safari"/>
+</module>
