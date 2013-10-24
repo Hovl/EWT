@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="EWT:Web exploded">
+    <output-path>$PROJECT_DIR$/out/exploded/EWTWeb</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="EWT/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="EWT" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="gxt" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="EWT/gwt/GWT" />
+    </root>
+  </artifact>
+</component>
